@@ -1,0 +1,75 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 320.01E11WHT
+#
+DEF 320.01E11WHT S 0 30 Y Y 1 F N
+F0 "S" 200 300 50 H V L CNN
+F1 "320.01E11WHT" 200 200 50 H V L CNN
+F2 "32001E11WHT" 750 100 50 H I L CNN
+F3 "https://www.mouser.fr/datasheet/2/140/320-345905.pdf" 750 0 50 H I L CNN
+F4 "SWITCH TACT SPST-NO 0.025A 50V" 750 -100 50 H I L CNN "Description"
+F5 "10" 750 -200 50 H I L CNN "Height"
+F6 "612-320.01E1-1WHT" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/E-Switch/32001E11WHT?qs=3Jlm%2Fl9ddLwqyiR6P%2F5M2A%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "E-Switch" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "320.01E11WHT" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 150 700 150 700 -150 200 -150 200 150 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# DKA15A-15
+#
+DEF DKA15A-15 PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "DKA15A-15" 1050 200 50 H V L CNN
+F2 "DKA15A15" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/DKA15A-15.pdf" 1050 0 50 H I L CNN
+F4 "Converter: DC/DC; 15W; Uin:918V; Uout:15VDC; Uout2:-15VDC; 2\"x1\"" 1050 -100 50 H I L CNN "Description"
+F5 "11.27" 1050 -200 50 H I L CNN "Height"
+F6 "709-DKA15A-15" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/DKA15A-15?qs=l0g2inPJSHOYF%252BNKqUQKuw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mean Well" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DKA15A-15" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X +VIN 1 0 -100 200 R 50 50 0 0 P
+X -VIN 2 0 0 200 R 50 50 0 0 P
+X +VOUT 3 1200 -200 200 L 50 50 0 0 P
+X COM 4 1200 -100 200 L 50 50 0 0 P
+X -VOUT 5 1200 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# NE555DR
+#
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 320.01E11WHT
+D SWITCH TACT SPST-NO 0.025A 50V
+F https://www.mouser.fr/datasheet/2/140/320-345905.pdf
+$ENDCMP
+#
+$CMP DKA15A-15
+D Converter: DC/DC; 15W; Uin:918V; Uout:15VDC; Uout2:-15VDC; 2"x1"
+F https://componentsearchengine.com/Datasheets/1/DKA15A-15.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+#End Doc Library
